@@ -45,11 +45,19 @@ print(myFunction2())
 if myFunction1():
     print("YES")
 else:
-    print("NO!")
+    print("NO!!")
 
 if not myFunction2():
-    print("NO!")
+    print("NO! - Func2")
 else:
-    print("YES")
+    print("YES - Func2")
+
+#isinstance() function for example can be used to determine if an object is of a certain data
+x = 200
+#should return false because x is an int
+print(isinstance(x,str))
+#should return true because x is an int
+print(isinstance(x,int))
+
 
 
