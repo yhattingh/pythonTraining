@@ -20,8 +20,8 @@ print(b.replace("h","j"))
 print(b.split(","))
 
 # Straight forward concatenation of strings
-A = "Hello"
-B = "World"
+A = "Hello1"
+B = "World1"
 C = A + " " + B
 print(C)
 

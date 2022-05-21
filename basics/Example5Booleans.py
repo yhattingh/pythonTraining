@@ -9,7 +9,7 @@ if b > a:
 else:
     print("b is not greater than a")
 
-# Bool tests for a string or int
+# Bool tests if it is a string or integer
 # If the string is empty or int is 0, then it returns false
 # Using variables with bool
 x = "hello"
@@ -32,12 +32,13 @@ print(bool("")) # only empty strings are false
 print(bool(0)) # only 0 is false
 
 # You can also create functions that return a bool value
+# You can also execute code based on the Bool answer  of a function
 def myFunction1():
-    return False
+    return True
 print(myFunction1())
 
 def myFunction2():
-    return True
+    return False
 print(myFunction2())
 
 # execute code based on the boolean answer of a function
