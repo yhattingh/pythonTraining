@@ -1,4 +1,4 @@
-# Create a class named person and us the __init__ () function to assign values for fname and age
+# Create a class named person and us the __init__ () function to assign values for name and age
 # Object methods
 # Objects can also contain methods
 # Methods in objects are functions that belong to the object

@@ -10,7 +10,7 @@
 # does not have to be named self, you can call it whatever you like,
 # but it has to be the first parameter of any function in the class
 # the very first parameter will always refer to SELF or iow the class
-# google a bit >> is it only when we use __init__()
+# self = this. used in Java
 
 class Person:
     def __init__(mysillyObject, name, age):
@@ -22,6 +22,7 @@ class Person:
 
 p1 = Person("Diana", 22)
 p1.myFunc()
+print(p1.age)
 
 # you can modify properties on objects like this
 # set the age of p1 to 40

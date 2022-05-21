@@ -1,4 +1,5 @@
-# Create a class named person and us the __init__ () function to assign values for fname and age:
+# Create a class named person and us the __init__ () function to assign values for name and age:
+# the __init__() function is called automatically everytime the class is being used to create a new object
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -14,6 +15,6 @@ print(p1.age)
 # Methods in objects are functions that belong to the object
 
 # the self parameter is a reference to the current instance of the class and is used to access
-# variables that belong to the classExample14Classes.py
+# variables that belong to the class
 
 
